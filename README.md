@@ -18,7 +18,17 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
+a=int(input())
+b=int(input())
+c = a+b
+b = c-b
+a = c-a
 
+print("Swapped values are:",a,b)
+```
+## OUTPUT:
+![images](./image/swap.png)
 
 
 ## RESULT:
